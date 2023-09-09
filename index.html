@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>FCC Survey Form</title>
+  </head>
+
+<body>
+
+<div id="page-background">
+  
+  <h1 id="title"> FreakCodeCamp Scurvy Form </h1>
+
+    <p id="description"> A form to discover the freakishness and disease history of CodeCampers </p> 
+
+
+  <br>
+  
+  <div id="form-container">
+    <form id="survey-form"> 
+      <label id="name-label" for="name" >Name</label>   <br>
+      <input id="name" type="text" placeholder="Enter your name" required/> <br>
+        <br>
+      <label id="email-label" for="email">email</label> <br>
+      <input id="email" type="email" placeholder="Enter your email" required/> <br>
+        <br>
+      <label id="number-label" for="number" >Age</label>  <br>
+      <input id="number" type="number" placeholder="Enter your age" min="5" max="25"/> <br>
+        <br>
+      
+      <label for="dropdown">Role</label>   <br>
+      <select id="dropdown" name="roles_list" type="dropdown">  <br>
+       <option value="Head Cheese" selected>Head Cheese</option>
+       <option value="Heckler" >Heckler</option>
+       <option value="Jerk" >Jerk</option>
+       <option value="Suffering Saint" >Heckler</option>
+      
+      </select>
+      <br>
+      <br>
+      
+      <p id="which-freaky"> Which option describes your current freakishness?  </p>
+      
+      <input id="super-freaky" value="super-freaky" name="how-freaky" type="radio"/>
+      <label for="super-freaky">Super-freaky</label>  <br> 
+      
+      <input id="mildly-freaky" value="mildly-freaky" name="how-freaky" type="radio"/>
+      <label for="mildly-freaky">Mildly-freaky</label>  <br> 
+      
+      <input id="unsure" value="unsure" name="how-freaky" type="radio"/>
+
+      <label for="unsure">Unsure</label>  <br>
+      <br> 
+
+            <p id="which-diseases"> Check your current diseases: </p>
+
+     <input id="lymes" name="diseases" type="checkbox" value="lymes"/>
+      <label for="lymes">Lymes</label>  <br> 
+ 
+          <input id="crones" name="diseases" type="checkbox" value="crones"/>
+      <label for="crones">Crones</label>  <br> 
+ 
+          <input id="std" name="diseases" type="checkbox" value="std"/>
+      <label for="std">STDs</label>  <br> 
+ 
+          <input id="scurvy" name="diseases" type="checkbox" value="scurvy"/>
+      <label for="scurvy">Scurvy</label>  <br> 
+
+                <input id="psych" name="diseases" type="checkbox" value="psych"/>
+      <label for="psych">Psychologist's</label>  <br> 
+
+          <input id="diabolical" name="diseases" type="checkbox" value="diabolical"/>
+      <label for="diabolical">Diabolical</label>  <br> 
+       <br> 
+       
+      <label for="comments">Comments</label>     
+      <textarea id="comments" placeholder="Type comments here">
+        </textarea>  <br>
+        <br>
+       
+      <button id="submit" type="submit">Submit</button>  <br>
+
+     
+   </div> <!-- form-container -->
+  </div> <!-- //page-background -->
+
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>

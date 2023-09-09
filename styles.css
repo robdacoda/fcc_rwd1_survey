@@ -1,0 +1,46 @@
+h1 {
+  font-size: 20pt;
+  
+} 
+
+label {
+  color: white;
+  
+}
+input {
+  border-radius: 5px;
+  
+}
+#page-background {
+  background-color: lavender;
+  padding: 2% 10% 5% 10%;
+
+}
+
+#title { 
+  text-align: center;
+
+}
+
+#form-container {
+  background-color: purple;
+  padding: 5%;
+  border-radius: 5px;
+
+}
+
+#which-freaky {
+  color: white;
+  
+}
+
+#which-diseases  {
+  color: white;
+  
+}
+
+#comments {
+  height: 100px;
+  width: 100%;
+  
+}
